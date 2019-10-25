@@ -5,7 +5,7 @@ service:
 
 image:
   repository: czm41k/ui
-  tag: 0.2.3
+  tag: latest
 
 ingress:
   class: nginx
