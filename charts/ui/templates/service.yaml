@@ -2,11 +2,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "ui.fullname" . }}
+  name: ui
   labels:
-    app: reddit
-    component: ui
-    release: {{ .Release.Name }}
+    app: ui
 spec:
   type: NodePort
   ports:
@@ -14,7 +12,5 @@ spec:
     protocol: TCP
     targetPort: {{ .Values.service.internalPort }}
   selector:
-    app: reddit
-    component: ui
-    release: {{ .Release.Name }}
+    app: ui
 ...
