@@ -14,5 +14,5 @@ postHost:
 postPort:
 commentHost:
 commentPort:
-zipkinEnabled: "true"
+zipkinEnabled: true
 ...

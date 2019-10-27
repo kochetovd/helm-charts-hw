@@ -32,7 +32,7 @@ spec:
         - name: COMMENT_SERVICE_PORT
           value: {{  .Values.commentPort | default "9292" | quote }}
         - name: ZIPKIN_ENABLED
-          value: {{  .Values.zipkinEnabled | default "false" }}
+          value: {{  .Values.zipkinEnabled | default "false" | quote }}
         - name: ENV
           valueFrom:
             fieldRef:
