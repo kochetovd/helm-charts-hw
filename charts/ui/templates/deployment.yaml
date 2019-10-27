@@ -32,6 +32,8 @@ spec:
         - name: COMMENT_SERVICE_PORT
           value: {{  .Values.commentPort | default "9292" | quote }}
         - name: ENV
+          value: {{  .Values.zipkinEnabled | default "false" }}
+        - name: ENV
           valueFrom:
             fieldRef:
               fieldPath: metadata.namespace
