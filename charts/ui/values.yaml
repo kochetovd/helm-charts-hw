@@ -15,4 +15,5 @@ postPort:
 commentHost:
 commentPort:
 zipkinEnabled: true
+zipkinHost: zipkin.istio-system.svc.cluster.local
 ...

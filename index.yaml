@@ -3,7 +3,7 @@ entries:
   comment:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T11:46:03.392557+03:00
+    created: 2019-10-27T12:50:18.362252+03:00
     description: OTUS reddit application COMMENT homework
     digest: e2c462ab817b9ad80ff590237ab18b2cd9eef29fa34157cd5e8b25421be3d69e
     home: https://github.com/czm41k/helm-charts/
@@ -17,9 +17,9 @@ entries:
   post:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T11:46:03.392821+03:00
+    created: 2019-10-27T12:50:18.362595+03:00
     description: OTUS reddit application POST homework
-    digest: 1b5c374e18c05ab7987414b12c1ce639449f2084c4d1b5abf7b221d8e8cf7b66
+    digest: 987faa881f1eb7262672981e3e79fe0fe748de6014e7e1deda05be072cfdc099
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
@@ -31,9 +31,9 @@ entries:
   ui:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T11:46:03.393099+03:00
+    created: 2019-10-27T12:50:18.362921+03:00
     description: OTUS reddit application UI homework
-    digest: 11816b1b7ebaa98bec8bc0ece744d0ba6049db73ccb70667c7103803d9b038b7
+    digest: 8f7defa39c3f8dd4331cdb340635f62b60369cb8a69a27f634c5ba88e2e40bf8
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
@@ -42,4 +42,4 @@ entries:
     urls:
     - ui-1.1.1.tgz
     version: 1.1.1
-generated: 2019-10-27T11:46:03.391808+03:00
+generated: 2019-10-27T12:50:18.361094+03:00

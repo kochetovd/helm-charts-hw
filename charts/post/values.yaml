@@ -9,4 +9,5 @@ image:
 
 databaseHost:
 zipkinEnabled: true
+zipkinHost: zipkin.istio-system.svc.cluster.local
 ...
