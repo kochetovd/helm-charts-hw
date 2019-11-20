@@ -4,8 +4,8 @@ service:
   externalPort: 9292
 
 image:
-  repository: czm41k/ui
-  tag: latest
+  repository: dkochetov/ui
+  tag: 0.2.3
 
 ingress:
   class: nginx
