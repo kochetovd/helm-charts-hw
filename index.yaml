@@ -3,43 +3,45 @@ entries:
   comment:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.94813+03:00
+    created: "2019-11-20T15:56:30.869205709+03:00"
+
     description: OTUS reddit application COMMENT homework
-    digest: e2c462ab817b9ad80ff590237ab18b2cd9eef29fa34157cd5e8b25421be3d69e
+    digest: 431844ea27b83ead35c811305422acfee55fb6197150f4aa36f5c62decb7ee74
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: comment
     urls:
-    - comment-1.1.1.tgz
+    - https://raw.githubusercontent.com/kochetovd/helmcharts-hw/master/comment-1.1.1.tgz
     version: 1.1.1
   post:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.94839+03:00
+    created: "2019-11-20T15:56:30.877450269+03:00"
     description: OTUS reddit application POST homework
-    digest: 8ced9b976a29636395547e4ab3706b5ca55d9b6857bff13112dcf54d0ab67ae7
+    digest: f4d1b5caa05887fca22720c94c21d137578724a8d63818e403546f127b3f9845
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: post
     urls:
-    - post-1.1.1.tgz
+    - https://raw.githubusercontent.com/kochetovd/helmcharts-hw/master/post-1.1.1.tgz
     version: 1.1.1
   ui:
   - apiVersion: v1
     appVersion: "1"
-    created: 2019-10-27T15:11:02.948656+03:00
+    created: "2019-11-20T15:56:30.877757212+03:00"
     description: OTUS reddit application UI homework
-    digest: 744387a9d06dd26b519d47c078bdd19b757692d3bbbda19e16a16fe1aef4fefa
+    digest: 9721a772eb312d376a5277da6338b76b1a6ac08dfa27d0ee0e31f65199e02aea
     home: https://github.com/czm41k/helm-charts/
     maintainers:
     - email: etselikov@express42.com
       name: czm41k
     name: ui
     urls:
-    - ui-1.1.1.tgz
+    - https://raw.githubusercontent.com/kochetovd/helmcharts-hw/master/ui-1.1.1.tgz
     version: 1.1.1
-generated: 2019-10-27T15:11:02.94727+03:00
+generated: "2019-11-20T15:56:30.868765756+03:00"
+

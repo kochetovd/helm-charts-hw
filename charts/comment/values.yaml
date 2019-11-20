@@ -4,7 +4,7 @@ service:
   externalPort: 9292
 
 image:
-  repository: czm41k/comment
+  repository: dkochetov/comment
   tag: 0.1.1
 
 databaseHost:
